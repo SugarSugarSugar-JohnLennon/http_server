@@ -1,0 +1,3 @@
+/sugar/http_server/build/CMakeFiles/rebuild_cache.dir
+/sugar/http_server/build/CMakeFiles/edit_cache.dir
+/sugar/http_server/build/CMakeFiles/http_server.dir

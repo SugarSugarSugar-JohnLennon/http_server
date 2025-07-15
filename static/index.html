@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple 风格博客</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍏 sugar博客</h1>
+    <p class="subtitle">极简 · 现代 · 无需登录</p>
+  </header>
+  <main>
+    <section id="new-post">
+      <h2>写新文章</h2>
+      <form id="postForm">
+        <input type="text" id="title" placeholder="标题" required maxlength="50">
+        <textarea id="content" placeholder="写点什么..." required maxlength="2000"></textarea>
+        <button type="submit">发布</button>
+      </form>
+    </section>
+    <section id="posts">
+      <h2>文章列表</h2>
+      <div id="postList"></div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Apple 风格博客 | 纯前端存储 | 端口 8080</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html> 
